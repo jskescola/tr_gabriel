@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family = Limelight & display = swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+   
+}
+h1{
+    font-size: 4em;
+}
+.wh1{
+    display: block;
+    
+    color: #025e02;
+    font-size: 2em;
+
+}
+.cabecalho{
+    display: flex;
+}
+
+ .logo{
+     margin: 5px;
+     display: block;
+    max-width: 5% ;
+ }
+
+ 
+.fis{
+    margin: 0 auto;
+    display:inline-block;
+    text-align: center;
+    font-size: 6em;
+    color: #025e02;
+    font-family: 'Playfair Display', serif;
+}
+#menu{
+    font-size: 20px;
+    list-style: none;
+    /* padding: 1;  */
+    background-color: rgb(96, 160, 130);
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    color: rgb(255, 255, 255);
+    padding: 15px ;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 1.5s;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(4, 36, 1);
+}    
+
+.title{
+    margin: 20px ;
+    padding: 1.5rem;
+    color: #025e02;
+    font-size: 1.5em;
+}
+.img{
+    display: block;
+    margin: 0 auto;
+}
+#list {
+    font-size: 19px;
+    display: block;
+    margin: auto;
+    color: rgb(255, 0, 0);
+}
+p{
+    font-size: 30px;
+}
